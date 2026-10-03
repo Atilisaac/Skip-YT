@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "YTAutoSkip Tab Detector",
+    "version": "1.0",
+    "description": "Detects the active Chrome tab URL.",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "http://127.0.0.1:8765/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
